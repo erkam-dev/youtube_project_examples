@@ -46,7 +46,7 @@ class _MaterialYouThemingState extends State<MaterialYouTheming> {
               darkTheme: ThemeData(
                 useMaterial3: useMaterial3,
                 colorScheme: darkColorScheme,
-                // brightness: Brightness.dark,
+                brightness: Brightness.dark,
               ),
               themeMode: currentTheme,
               home: Scaffold(
